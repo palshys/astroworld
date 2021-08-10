@@ -1,0 +1,119 @@
+*{
+
+    margin:0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'DotGothic16', sans-serif;
+    color: purple;
+
+}
+
+body{
+
+    background-color: rgb(3, 0, 12);
+
+}
+
+img{
+
+    width: 30vw;
+    height: 50vh;
+
+    margin-left: 3vw;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+
+    float: left;
+
+    position: relative;
+    top: 1vh;
+
+}
+
+header{
+
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+
+    text-align: center;
+
+}
+
+    #header{
+
+        color: red;
+
+    }
+
+main{
+
+    margin-right: 3vw;
+    font-size:77%;
+
+}  
+
+    p::first-line{
+
+        text-indent: 3vw;
+
+    }
+
+#wrapper{
+
+    width: 50vw;
+
+    margin: 7vh auto;
+
+    font-size: 90%;
+    
+    text-align: center;
+
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.5vw;
+
+}    
+
+    #one{
+
+        grid-column: 1/4;
+
+    }
+
+    a{
+
+        color: red;
+        text-decoration: none;
+
+    }
+
+    #home:hover{
+
+        color:yellow;
+
+    }
+
+    #clothing:hover{
+
+        color:yellow;
+
+    }
+
+    #vinyls:hover{
+
+        color:yellow;
+
+    }
+    
+    #accessories:hover{
+
+        color:yellow;
+        
+    }
+
+
+
+    
